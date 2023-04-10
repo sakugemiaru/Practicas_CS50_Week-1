@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /****
- * population n flames
+ * population n llamas
  * each year n/3 new llamas are born and n/4 llamas die.
- * si empezamos con n=1200 llamas, tendriamos 1200 + n/3 - n/4 = 1300 llamas
+ * For example, if we were to start with n = 1200 llamas, then in the first year, 1200 / 3 = 400 new llamas would be born and 1200 / 4 = 300 llamas would pass away. 
+ * At the end of that year, we would have 1200 + 400 - 300 = 1300 llamas.
 ****/
 int main(void)
 {
